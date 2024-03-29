@@ -1,0 +1,21 @@
+.btn_Museum {
+  width: 222px;
+  height: 72px;
+  margin: 20px;
+  border-radius: 25px;
+  background: rgb(38, 155, 205);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+  transition-duration: 200ms;
+}
+
+.btn_Museum:hover {
+  box-shadow: 0 0 0 2px #269bcd;
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}

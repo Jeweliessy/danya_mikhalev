@@ -1,0 +1,109 @@
+
+
+.mainContainer {
+  width: 500px;
+  height: 750px;
+  background-color: #ffffff;
+  margin-top: 160px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Inter;
+}
+
+.formtext {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 49px;
+  font-style: italic;
+}
+
+.icon {
+  width: 82px;
+  height: 82px;
+  background-image: url('../ico/city.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 80px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.mrg1 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2 {
+  border: none;
+  margin-top: 60px;
+  font-family: Inter;
+  width: 320px;
+  height: 70px;
+  background-color: #269bcd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  transition: 200ms;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.btn2:hover {
+  box-shadow: 0 0 0 2px black;
+  transform: scale(1.1);
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 15px;
+  box-shadow: none;
+  border: none;
+  background-color: #d9d9d9;
+  margin-left: 10px;
+}
+
+.usericon {
+  width: 30px;
+  height: 30px;
+  background-image: url('../ico/user.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lockicon {
+  width: 30px;
+  height: 30px;
+  background-image: url('../ico/lock.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link_reg {
+  margin: 30px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #269bcd;
+  transition: 200ms;
+}
+
+.link_reg:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}

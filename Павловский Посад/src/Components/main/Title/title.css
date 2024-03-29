@@ -1,0 +1,43 @@
+.flex_block {
+  display: flex;
+  height: 512px;
+  width: 1920px;
+  background: rgb(38, 155, 205);
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 85px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.text2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.block2 {
+  width: 768px;
+  height: 512px;
+  background-image: url(/src/Components/ico/0q6.png);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.block_text {
+  margin-left: 150px;
+  margin-right: 10%;
+  width: 600px;
+}

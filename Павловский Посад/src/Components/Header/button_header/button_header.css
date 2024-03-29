@@ -1,0 +1,20 @@
+.btn {
+  height: 60px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: 200ms;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #269bcd;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 2px #269bcd;
+  transform: scale(1.1);
+}

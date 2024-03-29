@@ -1,0 +1,253 @@
+.MainPageContainer {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.SubMainPageContainer {
+  display: flex;
+}
+
+.insruction {
+  width: 70%;
+  height: 600px;
+  background: #f4f4f4;
+}
+.biletcontainer {
+  width: 30%;
+  height: 600px;
+  background-color: #f4f4f4;
+}
+
+.pokypkaBiletovText {
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: inter;
+  font-weight: 700;
+  font-style: italic;
+  flex-direction: column;
+  font-size: 64px;
+  width: 1000px;
+  height: 200px;
+}
+.svgContainer{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+.onesvgbackground{
+  background-color:#EB3D00;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.onesvg {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../Components/ico/one.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.font1 {
+  font-family: inter;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.twosvgbackground{
+  background-color: #6A56E6;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twosvg {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../Components/ico/two.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.tresvgbackground{
+  background-color:#FFA400;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tresvg {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../Components/ico/tre.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.back1 {
+  background-color: white;
+  border-radius: 25px;
+  width: 300px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step1, .step2, .step3 {
+  width: 120px;
+  height: 120px;
+  background-image: url("../../Components/ico/1step.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.step2 {
+  background-image: url("../../Components/ico/2step.svg")
+}
+
+.step3 {
+  background-image: url("../../Components/ico/3step.svg")
+}
+
+.biletcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bilet, .bilet2, .bilet3 {
+  width: 300px;
+  height: 170px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.bilet:hover, .bilet2:hover, .bilet3:hover {
+  transform: scale(1.1);
+}
+
+.bilet {
+  border-right: #EB3D00 10px solid;
+}
+
+.bilet2 {
+  border-right: #6A56E6 10px solid;
+}
+
+.bilet3 {
+  border-right: #FFA400 10px solid;
+}
+
+.textBil, .textBil2, .textBil3 {
+  font-family: inter;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.TextBron, .TextBron2, .TextBron3 {
+  font-family: inter;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.textBil, .TextBron {
+  color: #EB3D00;
+}
+
+.textBil2, .TextBron2 {
+  color: #6A56E6;
+}
+
+.textBil3, .TextBron3 {
+  color: #FFA400;
+}
+
+.museumContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.popularMuseum {
+  font-family: inter;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 64px;
+  margin-left: 35px;
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.svgMuseum {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  background-image: url('../../Components/ico/museum.svg');
+}
+
+.museumText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: inter;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  color: #636363;
+  margin-top: 10px;
+}
+
+.flexCenterCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

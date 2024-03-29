@@ -1,0 +1,36 @@
+.block_what {
+  display: flex;
+  align-items: center;
+  margin: 150px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.li_what {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.title_what {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.img_what {
+  width: 693px;
+  height: 718px;
+  background-image: url(/src/Components/ico/girl_1.png);
+}
+
+.block_flex_what_1 {
+  margin: 100px;
+  width: 700px;
+}
+
+.title_li_what {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
